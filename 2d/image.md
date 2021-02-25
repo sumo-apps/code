@@ -13,7 +13,7 @@ var image = new Sumo.Image()
 sumo.add(image)
 ```
 
-<details>
+<details markdown="1">
   <summary>See other examples</summary>
 You can give image source in constructor:
 
@@ -64,7 +64,7 @@ image.moveAlongCurve(1000, {
 
 ![preview](../images/curve-preview.gif)
 
-<details>
+<details markdown="1">
   <summary>See other examples</summary>
 
 Curve can also be given as an array:
