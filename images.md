@@ -47,7 +47,7 @@ image.moveAlongCurve(1000, {
 })
 ```
 
-![preview](images/curve-preview.gif)
+![preview](preview_images/curve-preview.gif)
 
 <details markdown="1">
   <summary>See other examples</summary>
@@ -108,4 +108,4 @@ function moonRotate() {
 Sumo.Update(moonRotate);
 ```
 
-![preview](images/rotate-around-preview.gif)
+![preview](preview_images/rotate-around-preview.gif)
