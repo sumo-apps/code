@@ -1,41 +1,29 @@
-[Go back to 2d](index.md)
+[Go back to index](index.md)
 
-# 2D - Image
+# Image
 
-## Creating image
-
-To create image:
+To create an Image:
 ```javascript
-var sumo = new Sumo.Core();
-
-var image = new Sumo.Image()
-
-sumo.add(image)
+var image = new Image()
 ```
 
 <details markdown="1">
   <summary>See other examples</summary>
+
 You can give image source in constructor:
 
 ```javascript
-var sumo = new Sumo.Core();
+var image = new Image('/images/icon.png')
 
-var image = new Sumo.Image('/images/icon.png')
 image.position.x = 300
 image.position.y = 300
 image.size = { x: 100, y: 100, z: 100 }
-
-sumo.add(image)
 ```
 
 You can also give an object in constructor:
 
 ```javascript
-var sumo = new Sumo.Core();
-
-var image = new Sumo.Image({ source: '/images/icon.png', position: { x: 300, y: 300 } });
-
-sumo.add(image)
+var image = new Image({ source: '/images/icon.png', position: { x: 300, y: 300 } });
 ```
 </details>
 
@@ -47,12 +35,9 @@ sumo.add(image)
 - `curve` 4 points that represent the curve
 
 ```javascript
-var sumo = new Sumo.Core();
+var image = new Image();
 
-var image = new Sumo.Image();
-sumo.add(image);
-
-image.position = new Sumo.Vector(200, 150);
+image.position = new Vector(200, 150);
 
 image.moveAlongCurve(1000, {
     p0: { x: 200, y: 150 },
@@ -62,7 +47,7 @@ image.moveAlongCurve(1000, {
 })
 ```
 
-![preview](../images/curve-preview.gif)
+![preview](images/curve-preview.gif)
 
 <details markdown="1">
   <summary>See other examples</summary>
@@ -100,9 +85,9 @@ image.moveAlongCurve(1000, {
 
 ## rotateAround
 
-`rotateAround(position, angle)` rotates vector around given position for set angle in degrees.
+`rotateAround(position, angle)` rotates image around given position for set angle in degrees.
 
-- `position` target position to rotate around
+- `position` target position [Vector](vectors.md) to rotate around
 - `angle` angle in degrees to rotate
 
 ```javascript
@@ -123,4 +108,4 @@ function moonRotate() {
 Sumo.Update(moonRotate);
 ```
 
-![preview](../images/rotate-around-preview.gif)
+![preview](images/rotate-around-preview.gif)
