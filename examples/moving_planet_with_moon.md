@@ -1,20 +1,13 @@
 [Go back to index](../index.md)
 
-# 2D
-
-- [Image](image.md)
-
-## Examples
+# Moving planet with moon
 
 Moving planet and moon that spins around it:
 ```javascript
-var sumo = new Sumo.Core();
-
-var planet = new Sumo.Image()
+var planet = new Image()
 planet.position.x = 400
 planet.position.y = 400
 planet.size = { x: 100, y: 100, z: 100 }
-sumo.add(planet)
 
 var time = 0;
 function planetMove() {
@@ -23,17 +16,22 @@ function planetMove() {
   time++;
 }
 
-Sumo.Update(planetMove);
+Update(planetMove);
 
-var moon = new Sumo.Image()
-sumo.add(moon)
+var moon = new Image()
 
 function moonRotate() {
   moon.rotateAround(planet.position, time)
 }
 
-Sumo.Update(moonRotate);
+Update(moonRotate);
 
 ```
 
-_Note that having multiple Sumo.Update() functions is possible_
+_Note that having multiple Update() functions is possible_
+
+## See also
+
+- [Images](../images.md)
+- [GameObjects](../gameobjects.md)
+- [Vectors](../vectors.md)
