@@ -1,7 +1,15 @@
-# Welcome to SumoCode docs
+# Sumo docs
 
-- [2d](2d/index.md)
-- [3d](3d/index.md)
-- [Imports](imports/index.md)
-- [Constants](constants/index.md)
-- [Vector](vector.md)
+_Under construction, content subject to change_
+
+- [GameObjects](gameobjects.md)
+    - [Images](images.md)
+- [Global constants](constants.md)
+- [Importing](imports.md)
+- [Vectors](vectors.md)
+- [Under the hood](under_the_hood.md)
+
+## Examples
+
+- [Moving planet with moon](examples/moving_planet_with_moon.md)
+- [Solar system](examples/solar_system.md)
