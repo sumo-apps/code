@@ -2,4 +2,59 @@
 
 # Constants
 
-WIP
+- Terrain
+  - Grid
+  - Valley
+  - Maze
+  - Track
+  - etc.
+- Music
+  - City
+  - Forest
+  - Ocean
+  - Space
+  - etc.
+- Skin
+  - Female1
+  - Male1
+  - Alien1
+  - etc.
+- Texture
+  - Wood
+  - Grass
+  - Fur
+  - Bricks
+- Material
+  - Basic
+  - Advanced
+- Perspective
+  - First
+  - Third
+  - Isometric
+- CameraMovement
+  - Disabled
+  - Teleport
+  - FollowHighlighted
+- UI
+  - Position
+    - Center
+    - Left
+    - etc.
+  - Size
+    - Huge
+    - Large
+    - etc.
+- Prefabs
+  - Food
+    - Apple
+    - Avocado
+    - etc.
+  - House
+    - Bed
+    - Box
+    - etc.
+- Color
+  - Pink
+  - Beige
+  - Orange
+  - etc.
