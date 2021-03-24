@@ -6,7 +6,7 @@ You can use Brush to paint.
 
 Controllable Brush:
 ```javascript
-var brush = new Brush(Color.Red);
+var brush = new Brush(Color.Beige);
 
 // Add user input
 var gamepad = new Gamepad()
@@ -32,3 +32,12 @@ Update(() => {
 ```
 
 </details>
+
+## paintOnPress
+
+Brush paints only when specified key is held down.
+
+```javascript
+var brush = new Brush(Color.Beige);
+brush.paintOnPress('e')
+```
