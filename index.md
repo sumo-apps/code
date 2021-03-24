@@ -4,9 +4,12 @@ _Under construction, content subject to change_
 
 - [GameObjects](gameobjects.md)
     - [Images](images.md)
-- [Global constants](constants.md)
-- [Importing](imports.md)
+    - [Brush](brush.md)
+- Input
+    - [Gamepad](gamepad.md)
 - [Vectors](vectors.md)
+- [Constants](constants.md)
+- [Importing](imports.md)
 - [Under the hood](under_the_hood.md)
 
 ## Examples
