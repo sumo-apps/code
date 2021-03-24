@@ -91,13 +91,9 @@ image.moveAlongCurve(1000, {
 - `angle` angle in degrees to rotate
 
 ```javascript
-var sumo = new Sumo.Core();
-
 var planet = new Sumo.Image({ position: { x: 200, y: 200 }, size: { x: 100, y: 100 }})
-sumo.add(planet)
 
 var moon = new Sumo.Image({ position: { x: 75, y: 75 }});
-sumo.add(moon)
 
 var time = 0;
 function moonRotate() {
