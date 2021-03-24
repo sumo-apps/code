@@ -21,6 +21,27 @@ var gameObject = new GameObject()
 
 [Vector](vectors.md), defines size in pixel.
 
+## move
+
+Moves the object along specified axis for set amount.
+
+```javascript
+gameObject.move(Vector.Up, 100)
+```
+
+There's also shorthands:
+- `moveUp(100)`
+- `moveDown(100)`
+- etc.
+
+## rotate
+
+Rotates the object for set degrees around Z axis.
+
+```javascript
+gameObject.rotate(90)
+```
+
 ## rotateAround
 
 Please see [Image.rotateAround](images.md#rotatearound) for examples.
